@@ -2,9 +2,10 @@ import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import lottie from "../assets/herolottie.json";
 import ProjectCard from "../components/Cards/ProjectCard";
 import { useProject } from "@/hooks/useProject";
-function Home() {
 
-  const {data} = useProject()
+
+function Home() {
+  const { data } = useProject();
   return (
     <div className="flex flex-col w-full h-full max-w-[1920px] gap-24">
       <section className=" flex w-full">
@@ -35,17 +36,30 @@ function Home() {
       </section>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col items-center">
-          <h2 className="text-center font-poppins font-semibold text-mydark-800 text-3xl">Trabajos</h2>
-          <p className="text-center font-poppins font-normal text-mydark-800 text-base">Mis proyectos mas destacados en los que he trabajado </p>
+          <h2 className="text-center font-poppins font-semibold text-mydark-800 text-3xl">
+            Trabajos
+          </h2>
+          <p className="text-center font-poppins font-normal text-mydark-800 text-base">
+            Mis proyectos mas destacados en los que he trabajado{" "}
+          </p>
         </div>
         <section className="flex flex-wrap justify-center gap-12">
-          {
-            data?.map(project => (
-              <ProjectCard key={project.id} project={project} />
-            ))
-          }
+          {data?.map((project) => (
+            <ProjectCard key={project.id} project={project} />
+          ))}
         </section>
       </div>
+      <div className="flex flex-col gap-6">
+        <div className="flex flex-col items-center">
+          <h2 className="text-center font-poppins font-semibold text-mydark-800 text-3xl">
+            Conocimientos
+          </h2>
+          <p className="text-center font-poppins font-normal text-mydark-800 text-base">
+            Mis habilidades{" "}
+          </p>
+        </div>
+      </div>
+      
     </div>
   );
 }
