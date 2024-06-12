@@ -2,7 +2,7 @@ import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import lottie from "../assets/herolottie.json";
 import ProjectCard from "../components/Cards/ProjectCard";
 import { useProject } from "@/hooks/useProject";
-
+import Skillls from "@/components/Skillls";
 
 function Home() {
   const { data } = useProject();
@@ -58,8 +58,10 @@ function Home() {
             Mis habilidades{" "}
           </p>
         </div>
+        <div className="flex justify-center w-full">
+          <Skillls />
+        </div>
       </div>
-      
     </div>
   );
 }
