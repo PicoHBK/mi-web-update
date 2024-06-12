@@ -1,7 +1,7 @@
 
 function Footer() {
   return (
-    <footer className="flex items-center h-16 w-full justify-between border-t-2 border-myneutral-500 max-w-[1920px]">
+    <footer className="flex items-center h-16 w-full justify-between border-t-2 border-myneutral-500 max-w-[1920px] mt-auto">
       <p className="text-[12px] font-poppins font-light text-myprim-400 max-w-[650px]">© 2024 Gustavo Paredez | Desarrollador Full Stack Junior | Explorando el mundo del desarrollo web con pasión y determinación</p>
       <div className="flex gap-2 opacity-75">
         <div className="w-8 h-8">
