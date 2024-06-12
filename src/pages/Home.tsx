@@ -8,12 +8,12 @@ function Home() {
   const { data } = useProject();
   return (
     <div className="flex flex-col w-full h-full max-w-[1920px] gap-24">
-      <section className=" flex w-full">
+      <section className=" flex w-full min-h-[500px]">
         <div className="flex flex-col justify-center gap-2">
-          <h3 className="text-3xl font-poppins font-semibold text-mydark-900">
+          <h3 className="text-5xl font-poppins font-semibold text-mydark-900">
             Programador Full Stack Diseñador Grafico UX/UI
           </h3>
-          <h5 className="text-lg font-poppins font-regular text-mydark-200">
+          <h5 className="text-xl font-poppins font-regular text-mydark-200">
             Saludos a todos, soy{" "}
             <strong className="text-myprim-500">Gustavo Paredez.</strong>{" "}
             Exploro la conjunción entre Programación Full Stack y Diseño Gráfico
