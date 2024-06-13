@@ -25,9 +25,9 @@ function Skillls() {
           value={skill.title}
           className="w-full flex flex-wrap justify-center gap-3"
         >
-          {skill.tech.map((tech) => (
-            <div className="flex max-w-[450px] max-h-[200px] items-center">
-              <div className="w-[260px] h-[180px] p-3">
+          {skill.tech.map((tech, index) => (
+            <div className="flex max-w-[450px] max-h-[200px] items-center"key={index}>
+              <div className="w-[260px] h-[180px] p-3" >
                 {
                     generarImagen(tech)
                 }
