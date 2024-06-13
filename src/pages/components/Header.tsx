@@ -1,7 +1,10 @@
 
 function Header() {
   return (
-    <header className="flex  w-full justify-center items-center min-h-20">
+    <header className="flex  w-full justify-between items-center min-h-20 max-w-[1920px]">
+        <div className="h-10 w-10 lg:h-16 lg:w-16">
+            <img src="/src/assets/logo/logov1.png" alt="" className="w-full h-full object-fill" />
+        </div>
         <nav className="flex h-full items-center justify-center">
             <ul className="flex gap-3 items-center">
                 <li>
@@ -15,6 +18,9 @@ function Header() {
                 </li>
             </ul>
         </nav>
+        <div className="h-16 w-16">
+
+        </div>
     </header>
   )
 }
