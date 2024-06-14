@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import apiWeb from "@/api/api";
 import { ProjectType } from "@/types/apiWeb";
+import MKProject from "../mockup/MKProject.json"
 
 const fetchProjects = () => {
     return apiWeb.get<ProjectType[]>("/project/list").then((response) => {
@@ -10,7 +11,7 @@ const fetchProjects = () => {
     });
 }
 export function useProject (){
-    const {data} = useQuery({
+    const {data, isSuccess} = useQuery({
         queryKey: ["project"],
         queryFn: fetchProjects,
         staleTime: Infinity
@@ -18,5 +19,7 @@ export function useProject (){
 
     })
 
-    return {data}
+    const info = isSuccess ? data : MKProject
+
+    return {data:info}
 }

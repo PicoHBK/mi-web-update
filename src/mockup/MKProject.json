@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "tools": [
+            "Js",
+            "Flask"
+        ],
+        "title": "Discord",
+        "description": "Pagina inspirada en discord creada con el equipo de ByteForce para la carrera de Técnico en desarrollo de software de la universidad UPATECO",
+        "image": "https://i.postimg.cc/nLS1PQCY/type-louder.png",
+        "url": "http://typelouder.byte-force.com.ar/login.html",
+        "status": "active"
+    },
+    {
+        "id": 2,
+        "tools": [
+            "Django"
+        ],
+        "title": "Pagina de reservas",
+        "description": "Pagina de reservas creada con el equipo de ByteForce para el BootCamp",
+        "image": "https://i.postimg.cc/DyGY458V/byte-force.png",
+        "url": "https://www.byte-force.com.ar/",
+        "status": "active"
+    },
+    {
+        "id": 6,
+        "tools": [
+            "React",
+            "Django",
+            "TypeScript"
+        ],
+        "title": "Overwatch 2 Counters",
+        "description": "Creé una web sobre Overwatch con información de personajes, mecánicas, estrategias y consejos para jugadores.",
+        "image": "https://images7.alphacoders.com/133/1331479.png",
+        "url": "https://ovcounters.vercel.app/",
+        "status": "active"
+    }
+]

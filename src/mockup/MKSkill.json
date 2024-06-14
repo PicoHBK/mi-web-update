@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "tech": [
+            "React",
+            "Spring Boot",
+            "Django",
+            "Tailwind"
+        ],
+        "title": "Frameworks",
+        "color": "blue"
+    },
+    {
+        "id": 2,
+        "tech": [
+            "JavaScript",
+            "Python",
+            "Java",
+            "TypeScript"
+        ],
+        "title": "Lenguajes",
+        "color": "rose"
+    },
+    {
+        "id": 3,
+        "tech": [
+            "After Effects",
+            "Premiere Pro",
+            "Figma"
+        ],
+        "title": "Diseño",
+        "color": "lila"
+    },
+    {
+        "id": 4,
+        "tech": [
+            "HTML",
+            "CSS",
+            "SQL"
+        ],
+        "title": "Herramientas",
+        "color": "orange"
+    },
+    {
+        "id": 5,
+        "tech": [
+            "Programación Web",
+            "Office"
+        ],
+        "title": "Otros",
+        "color": "blue"
+    }
+]
