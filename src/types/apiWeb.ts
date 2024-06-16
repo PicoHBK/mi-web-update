@@ -14,3 +14,10 @@ export interface SkillType {
   title: string;
   color: string;
 }
+
+export interface AboutType {
+  id: number;
+  about: string;
+  title: string;
+  redaction: string;
+}

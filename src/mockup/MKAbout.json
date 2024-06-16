@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "about": "Gustavo",
+        "title": "Historia",
+        "redaction": "De Curioso a Creador. Soy un programador full stack y diseñador UX/UI. Comencé con la curiosidad por la tecnología y ahora cada línea de código y diseño es una oportunidad para crear soluciones únicas y atractivas."
+    },
+    {
+        "id": 34,
+        "about": "Gustavo",
+        "title": "Valores",
+        "redaction": "Innovación y Diseño. Mis valores son la innovación y el diseño. Busco unir lo funcional y lo estético en cada proyecto. Creo que la tecnología debe ser hermosa y funcional a la vez."
+    },
+    {
+        "id": 35,
+        "about": "Gustavo",
+        "title": "Colaboración",
+        "redaction": "Unidos para Brillar. La colaboración es esencial. Al trabajar con otros, fusionamos el desarrollo y el diseño para crear soluciones excepcionales que superan las expectativas."
+    },
+    {
+        "id": 36,
+        "about": "Gustavo",
+        "title": "Aprendizaje",
+        "redaction": "Siempre Aprendiendo. Siempre busco aprender. En un mundo en constante cambio, exploro nuevas tecnologías y enfoques de diseño para mantenerme actualizado y preparado para nuevos desafíos."
+    },
+    {
+        "id": 37,
+        "about": "Gustavo",
+        "title": "Working ....",
+        "redaction": "Hi !!"
+    }
+]

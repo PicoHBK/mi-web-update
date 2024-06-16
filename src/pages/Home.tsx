@@ -7,8 +7,8 @@ import Skillls from "@/components/Skillls";
 function Home() {
   const { data } = useProject();
   return (
-    <div className="flex flex-col w-full h-full gap-24 max-w-[1920px]">
-      <section className=" flex w-full lg:min-h-[500px]">
+    <div className="flex flex-col items-center w-full h-full gap-24 ">
+      <section className=" flex w-full justify-center lg:min-h-[500px]">
         <div className="flex flex-col justify-center gap-2">
           <h3 className="text-5xl font-poppins font-semibold text-mydark-900">
             Programador Full Stack Diseñador Grafico UX/UI
