@@ -11,7 +11,7 @@ function Home() {
       <section className=" flex w-full justify-center lg:min-h-[500px]">
         <div className="flex flex-col justify-center gap-2">
           <h3 className="text-5xl font-poppins font-semibold text-mydark-900">
-            Programador Full Stack Diseñador Grafico UX/UI
+            Programador - Diseñador Grafico UX/UI
           </h3>
           <h5 className="text-xl font-poppins font-regular text-mydark-200">
             Saludos a todos, soy{" "}

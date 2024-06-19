@@ -14,7 +14,7 @@ function About() {
             Gustavo Paredez
           </h3>
           <h5 className="text-xl font-poppins font-regular text-mydark-200">
-          Apasionado por la programación full stack y el diseño UX/UI, estoy avanzando constantemente en esta emocionante travesía. Mi objetivo es seguir aprendiendo y creciendo, fusionando tecnología y creatividad para desarrollar soluciones digitales inspiradoras y funcionales.
+          Apasionado por la programación y el diseño UX/UI, estoy avanzando constantemente en esta emocionante travesía. Mi objetivo es seguir aprendiendo y creciendo, fusionando tecnología y creatividad para desarrollar soluciones digitales inspiradoras y funcionales.
           </h5>
         </div>
         <div className="hidden justify-center w-full max-h-90 max-w-[700px] lg:flex">
