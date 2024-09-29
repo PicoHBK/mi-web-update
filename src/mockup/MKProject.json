@@ -32,7 +32,20 @@
         "title": "Overwatch 2 Counters",
         "description": "Creé una web sobre Overwatch con información de personajes, mecánicas, estrategias y consejos para jugadores.",
         "image": "https://images7.alphacoders.com/133/1331479.png",
-        "url": "https://ovcounters.vercel.app/",
+        "url": "https://overwatchcounters.vercel.app/",
+        "status": "active"
+    },
+    {
+        "id": 7,
+        "tools": [
+            "React",
+            "Django",
+            "TypeScript"
+        ],
+        "title": "Fighters Fans",
+        "description": "Web para fighting games y a su comunidad.",
+        "image": "https://wallpapercave.com/wp/wp4163743.jpg",
+        "url": "https://fightersarg.vercel.app/",
         "status": "active"
     }
 ]

@@ -1,40 +1,52 @@
-import { Player, Controls } from "@lottiefiles/react-lottie-player";
-import lottie from "../assets/herolottie.json";
-import ProjectCard from "../components/Cards/ProjectCard";
+
+import ProjectCard from "../../components/Cards/ProjectCard";
 import { useProject } from "@/hooks/useProject";
 import Skillls from "@/components/Skillls";
+
+import Autoplay from "embla-carousel-autoplay";
+
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+} from "@/components/ui/carousel"
+import CarouselPresentacion from "./Carousel/CarouselPresentacion";
+import CarouselSecondary from "./Carousel/CarouselSecondary";
+import CarouselSkills from "./Carousel/CarouselSkills";
+
+
 
 function Home() {
   const { data } = useProject();
   return (
     <div className="flex flex-col items-center w-full h-full gap-24 ">
-      <section className=" flex w-full justify-center lg:min-h-[500px]">
-        <div className="flex flex-col justify-center gap-2">
-          <h3 className="text-5xl font-poppins font-semibold text-mydark-900">
-            Programador - Diseñador Grafico UX/UI
-          </h3>
-          <h5 className="text-xl font-poppins font-regular text-mydark-200">
-            Saludos a todos, soy{" "}
-            <strong className="text-myprim-500">Gustavo Paredez.</strong>{" "}
-            Exploro la conjunción entre Programación Full Stack y Diseño Gráfico
-            UX/UI para plasmar ideas en la web. ¡Bienvenidos!
-          </h5>
-        </div>
-        <div className="flex justify-center w-full max-h-90 max-w-[700px]">
-          <Player
-            autoplay
-            loop
-            src={lottie}
-            className="w-full h-full object-cover"
-          >
-            <Controls
-              visible={false}
-              buttons={["play", "repeat", "frame", "debug"]}
-            />
-          </Player>
-        </div>
-      </section>
-      <div className="flex flex-col gap-6">
+      <Carousel
+      className="flex w-full justify-center lg:min-h-[500px]"
+      plugins={[
+        Autoplay({
+          delay: 5000,
+          stopOnInteraction: true,
+        }),
+      ]}
+      opts={{
+        align: "start",
+        loop: true,
+      }}
+    >
+      <CarouselContent className="max-w-[1940px]">
+        <CarouselItem>
+          <CarouselPresentacion />
+        </CarouselItem>
+        <CarouselItem>
+          <CarouselSkills />
+        </CarouselItem>
+        <CarouselItem>
+          <CarouselSecondary />
+        </CarouselItem>
+      </CarouselContent>
+    </Carousel>
+      
+      <div className="flex flex-col gap-6 w-full">
         <div className="flex flex-col items-center">
           <h2 className="text-center font-poppins font-semibold text-mydark-800 text-3xl">
             Trabajos

@@ -6,13 +6,6 @@ import {
 } from "@/components/ui/tooltip";
 
 import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
-
-import {
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -21,7 +14,7 @@ import { ProjectType } from "@/types/apiWeb";
 
 function ProjectCard({ project }: { project: ProjectType }) {
   return (
-    <div className="flex flex-col w-full h-full max-w-[400px] gap-3 p-3 bg-mylight-400 shadow-xl">
+    <div className="flex flex-col w-full h-full max-w-[400px] gap-3 p-3 bg-mylight-200 shadow-xl min-h-60">
       <div className="w-full h-24">
         <img
           src={project.image}
@@ -30,7 +23,7 @@ function ProjectCard({ project }: { project: ProjectType }) {
         />
       </div>
       <div className="flex justify-between items-center">
-        <h3 className="text-mydark-700 font-poppins text-base font-semibold">
+        <h3 className="text-gray-800 font-poppins text-lg font-bold">
           {project.title}
         </h3>
         <div className="flex gap-2">
@@ -91,16 +84,10 @@ function ProjectCard({ project }: { project: ProjectType }) {
         </div>
       </div>
       <div className="h-full">
-        <Accordion type="multiple">
-          <AccordionItem value="item-1">
-            <AccordionTrigger className="text-sm font-poppins font-normal text-mydark-200 text-start">
-              {imprimirPrimeras10Palabras(project.description).primeras10}
-            </AccordionTrigger>
-            <AccordionContent className="text-sm font-poppins font-normal text-mydark-200">
-              {imprimirPrimeras10Palabras(project.description).resto}
-            </AccordionContent>
-          </AccordionItem>
-        </Accordion>
+        <h3 className="font-medium text-base text-gray-500">
+          {project.description}
+
+        </h3>
       </div>
     </div>
   );
@@ -108,25 +95,7 @@ function ProjectCard({ project }: { project: ProjectType }) {
 
 export default ProjectCard;
 
-function imprimirPrimeras10Palabras(texto: string) {
-  // Dividir el string en un array de palabras
-  const palabras = texto.split(" ");
 
-  // Seleccionar las primeras palabras, hasta un máximo de 10
-  const primerasPalabras = palabras.slice(0, 10);
-
-  // Unir las palabras en un nuevo string
-  const primeras10String = primerasPalabras.join(" ");
-
-  // Crear el segundo string con el resto de palabras, si existen
-  const restoString = palabras.slice(10).join(" ");
-
-  // Retornar un objeto con los dos strings
-  return {
-    primeras10: primeras10String,
-    resto: restoString,
-  };
-}
 
 const getTechIcons = (techList: string[]): JSX.Element[] => {
   const icons: { [key: string]: string } = {
