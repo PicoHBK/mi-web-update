@@ -13,7 +13,7 @@ function Skillls() {
           <TabsTrigger
             key={item.id}
             value={item.title}
-            className="text-2xl font-medium data-[state=active]:bg-myprim-100"
+            className="text-2xl font-medium data-[state=active]:bg-gray-300 data-[state=active]:text-white data-[state=active]:shadow-md"
           >
             {item.title}
           </TabsTrigger>
@@ -23,7 +23,7 @@ function Skillls() {
         <TabsContent
           key={skill.id}
           value={skill.title}
-          className="w-full flex flex-wrap justify-center gap-3"
+          className="w-full flex flex-wrap justify-center gap-3 select-none"
         >
           {skill.tech.map((tech, index) => (
             <div className="flex max-w-[450px] max-h-[200px] items-center"key={index}>
@@ -60,12 +60,12 @@ function generarImagen(nombre: string): JSX.Element | null {
       Java:'https://img.icons8.com/?size=100&id=13679&format=png&color=000000',
       Python: 'https://img.icons8.com/?size=100&id=13441&format=png&color=000000',
       JavaScript: 'https://img.icons8.com/?size=100&id=108784&format=png&color=000000',
-      'After Effects': 'https://imgs.search.brave.com/UqLVuRVOtCVwEUq9wlXgA6Foep35WujVM9suXE-VE98/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2NiL0Fkb2JlX0Fm/dGVyX0VmZmVjdHNf/Q0NfaWNvbi5zdmc.svg',
-      'Premiere Pro': 'https://imgs.search.brave.com/dypcuQ69MonwiwtXqvyVSgMkJvWfwqYki2jloEN1R8s/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy80/LzQwL0Fkb2JlX1By/ZW1pZXJlX1Byb19D/Q19pY29uLnN2Zw.svg',
+      'After Effects': 'https://img.icons8.com/?size=100&id=108781&format=png&color=000000',
+      'Premiere Pro': 'https://img.icons8.com/?size=100&id=e57Y1CnsOasB&format=png&color=000000',
       Figma: 'https://img.icons8.com/?size=100&id=zfHRZ6i1Wg0U&format=png&color=000000',
       HTML: 'https://img.icons8.com/?size=100&id=20909&format=png&color=000000',
       'CSS': 'https://img.icons8.com/?size=100&id=21278&format=png&color=000000',
-      SQL: 'https://imgs.search.brave.com/2u8VKlc3a4Pk0QO_WxA8k9IisGkOJ5a9gHU6wkbH1lk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/c3ZncmVwby5jb20v/c2hvdy8zMzE3NjAv/c3FsLWRhdGFiYXNl/LWdlbmVyaWMuc3Zn.svg',
+      SQL: 'https://img.icons8.com/?size=100&id=QSjnrUKYMnxO&format=png&color=000000',
       Office:'https://imgs.search.brave.com/1ztI0cdZhvI60iJbrX8o9SiH6lMD7M4XZwAcwsLroBI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pY29u/cy5pY29uYXJjaGl2/ZS5jb20vaWNvbnMv/Y2FybG9zamovbWlj/cm9zb2Z0LW9mZmlj/ZS0yMDEzLzEyOC9P/ZmZpY2UtaWNvbi5w/bmc',
       'Programación Web': 'https://img.icons8.com/?size=100&id=sm8CzMKNcuhi&format=png&color=000000',
       // Añade más nombres y URLs de iconos según necesites

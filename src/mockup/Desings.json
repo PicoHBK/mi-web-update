@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "title": "SOL Y LUNA",
+      "description": "Animación realizada en After Effects utilizando gráficos vectoriales. Este proyecto demuestra habilidades en animación, diseño de movimientos y uso de expresiones para crear transiciones fluidas. Ideal para mostrar capacidades en producción de video y diseño digital.",
+      "videoUrl": "https://res.cloudinary.com/dzk19zxv8/video/upload/v1727608660/media/videos/pzdtbe6w5trpuvhhjykn.webm"
+    },
+    {
+      "id": 2,
+      "title": "INTRO LASER Y REFLEJOS",
+      "description": "Creado con After Effects, este video actúa como una introducción para un proyecto o marca, utilizando el plugin Saber de Video Copilot para lograr efectos de reflejo impactantes. La animación combina gráficos atractivos y efectos visuales que capturan la atención del espectador.",
+      "videoUrl": "https://res.cloudinary.com/dzk19zxv8/video/upload/v1727611157/media/videos/zg8baobuvd836im49fb9.webm"
+    },
+    {
+        "id": 3,
+        "title": "INTRO LINEAS FRACTALES",
+        "description": "Este video, creado con After Effects, presenta una introducción visualmente dinámica utilizando líneas y fractales que simulan la fluidez del agua. Las animaciones destacan un logo o marca, proporcionando una representación elegante y moderna que capta la atención del espectador mientras muestra la identidad visual de manera creativa.",
+        "videoUrl": "https://res.cloudinary.com/dzk19zxv8/video/upload/v1727611743/media/videos/dvmxjiren9bvffh6hxap.webm"
+      },
+      {
+        "id": 4,
+        "title": "ANIMACIÓN DE GRILLA DE CUADRADOS",
+        "description": "Animación creada con After Effects que presenta una grilla de cuadrados que cambian de color según un mapa de alpha de fractales. Esta técnica logra una animación fluida y natural, creando un efecto visual atractivo y dinámico.",
+        "videoUrl": "https://res.cloudinary.com/dzk19zxv8/video/upload/v1727613044/media/videos/cl1kas49rdfbfprkvyev.webm"
+      },
+      {
+        "id": 5,
+        "title": "ANIMACIÓN DE HEXÁGONOS",
+        "description": "Animación creada con After Effects que presenta una grilla de hexágonos que cambian de color según un mapa de alpha de fractales. Esta animación demuestra que, con creatividad, es posible lograr efectos visuales dinámicos y atractivos utilizando formas diferentes, en este caso, hexágonos en lugar de cuadrados.",
+        "videoUrl": "https://res.cloudinary.com/dzk19zxv8/video/upload/v1727612914/media/videos/jrelmflp3kxlcealswm7.webm"
+      }
+      
+      
+      
+  ]
+  

@@ -21,3 +21,10 @@ export interface AboutType {
   title: string;
   redaction: string;
 }
+
+export interface DesignType {
+  id: number;
+  title: string;
+  description: string;
+  videoUrl: string;
+}
