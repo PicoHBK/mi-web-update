@@ -64,7 +64,7 @@ const CarouselSkills = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-center w-full max-h-90 max-w-[600px]">
+      <div className="hidden justify-center w-full max-h-90 max-w-[600px] lg:flex">
         <Player
           autoplay
           loop

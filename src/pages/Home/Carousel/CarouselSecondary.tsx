@@ -3,7 +3,7 @@ import lottie from "../../../assets/aboutmelottie.json";
 
 const CarouselSecondary = () => {
   return (
-    <section className=" flex w-full justify-center lg:min-h-[500px]">
+    <section className=" flex flex-col lg:flex-row w-full justify-center lg:min-h-[500px]">
       <div className="flex flex-col justify-center gap-2">
         <h3 className="text-5xl font-poppins font-bold text-gray-800">
           Gustavo Paredez

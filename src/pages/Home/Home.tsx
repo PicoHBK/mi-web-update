@@ -74,9 +74,14 @@ function Home() {
         </div>
       </div>
       <div className="flex flex-col w-full items-center gap-4 lg:gap-0 lg:space-y-16">
-        <h1 className="text-3xl font-bold text-gray-600 text-center mb-4">
-          DISEÑO Y ANIMACIÓN
-        </h1>
+        <div className="flex flex-col items-center">
+          <h2 className="text-center font-poppins font-semibold text-mydark-800 text-3xl">
+            Diseño y Animación
+          </h2>
+          <p className="text-center font-poppins font-normal text-mydark-800 text-base">
+            Trabajos de animación y motion graphics
+          </p>
+        </div>
 
         {desings.map((desing) => (
           <DesignCard
