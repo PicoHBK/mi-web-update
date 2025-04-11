@@ -1,38 +1,15 @@
 [
     {
-        "id": 1,
-        "tools": [
-            "Js",
-            "Flask"
-        ],
-        "title": "Discord",
-        "description": "Pagina inspirada en discord creada con el equipo de ByteForce para la carrera de Técnico en desarrollo de software de la universidad UPATECO",
-        "image": "https://i.postimg.cc/nLS1PQCY/type-louder.png",
-        "url": "http://typelouder.byte-force.com.ar/login.html",
-        "status": "active"
-    },
-    {
-        "id": 2,
-        "tools": [
-            "Django"
-        ],
-        "title": "Pagina de reservas",
-        "description": "Pagina de reservas creada con el equipo de ByteForce para el BootCamp",
-        "image": "https://i.postimg.cc/DyGY458V/byte-force.png",
-        "url": "https://www.byte-force.com.ar/",
-        "status": "active"
-    },
-    {
-        "id": 6,
+        "id": 8,
         "tools": [
             "React",
             "Django",
             "TypeScript"
         ],
-        "title": "Overwatch 2 Counters",
-        "description": "Creé una web sobre Overwatch con información de personajes, mecánicas, estrategias y consejos para jugadores.",
-        "image": "https://images7.alphacoders.com/133/1331479.png",
-        "url": "https://overwatchcounters.vercel.app/",
+        "title": "StreamerEasy",
+        "description": "Crea overlays personalizables de chat y alerts en tiempo real para Twitch y Kick, con soporte para eventos como mensajes y seguidores.",
+        "image": "https://imgs.search.brave.com/7TzELtZnvqgFkqjMMuFUKzf5N_euJbqB-8-y7nPtbbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2FtZWNoYW1waW9u/cy5jb20vbWVkaWEv/MmN3bmNlZ3Ava2lj/ay12cy10d2l0Y2gt/dGh1bWJuYWlsLnBu/Zw",
+        "url": "https://streamereasy.vercel.app/",
         "status": "active"
     },
     {
