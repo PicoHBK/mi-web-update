@@ -5,7 +5,7 @@
     "title": "Noa Gestión",
     "description": "Sistema de gestión integral para kioscos y pequeños negocios. Permite controlar stock, ventas y finanzas con una interfaz moderna y sencilla.",
     "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698382/noa_gestion_bbs1xg.png",
-    "url": null,
+    "url": "https://github.com/PicoHBK",
     "status": "active"
   },
   {
@@ -23,7 +23,7 @@
     "title": "Club Norte",
     "description": "Sistema de gestión personalizado desarrollado a medida para optimizar las operaciones internas y la administración del cliente.",
     "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698876/CLubNorte_mm2kaa.png",
-    "url": null,
+    "url": "https://github.com/PicoHBK",
     "status": "active"
   }
 ]
