@@ -1,41 +1,29 @@
 [
-    {
-        "id": 8,
-        "tools": [
-            "React",
-            "Go",
-            "TypeScript"
-        ],
-        "title": "Noa Gestion",
-        "description": "Sistema de gestión para Noa. tipo ERP",
-        "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698382/noa_gestion_bbs1xg.png",
-        "url": null,
-        "status": "active"
-    },
-    {
-        "id": 7,
-        "tools": [
-            "React",
-            "Django",
-            "TypeScript"
-        ],
-        "title": "Fighters Fans",
-        "description": "Web para fighting games y a su comunidad.",
-        "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761699042/fiaclab_imtbvt.png",
-        "url": "https://fightersarg.vercel.app/",
-        "status": "active"
-    },
-    {
-        "id": 9,
-        "tools": [
-            "React",
-            "Go",
-            "TypeScript"
-        ],
-        "title": "Club Norte",
-        "description": "Versión personalizada del sistema Noa Gestión, adaptada a las necesidades del cliente.",
-        "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698876/CLubNorte_mm2kaa.png",
-        "url": null,
-        "status": "active"
-    }
+  {
+    "id": 8,
+    "tools": ["React", "Go", "TypeScript"],
+    "title": "Noa Gestión",
+    "description": "Sistema de gestión integral para kioscos y pequeños negocios. Permite controlar stock, ventas y finanzas con una interfaz moderna y sencilla.",
+    "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698382/noa_gestion_bbs1xg.png",
+    "url": null,
+    "status": "active"
+  },
+  {
+    "id": 7,
+    "tools": ["React", "Django", "TypeScript"],
+    "title": "Fighters Fans",
+    "description": "Plataforma dedicada a los fighting games y su comunidad. Permite organizar torneos, seguir jugadores y compartir resultados en tiempo real.",
+    "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761699042/fiaclab_imtbvt.png",
+    "url": "https://fightersarg.vercel.app/",
+    "status": "active"
+  },
+  {
+    "id": 9,
+    "tools": ["React", "Go", "TypeScript"],
+    "title": "Club Norte",
+    "description": "Sistema de gestión personalizado desarrollado a medida para optimizar las operaciones internas y la administración del cliente.",
+    "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698876/CLubNorte_mm2kaa.png",
+    "url": null,
+    "status": "active"
+  }
 ]
