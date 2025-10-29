@@ -3,13 +3,13 @@
         "id": 8,
         "tools": [
             "React",
-            "Django",
+            "Go",
             "TypeScript"
         ],
-        "title": "StreamerEasy",
-        "description": "Crea overlays personalizables de chat y alerts en tiempo real para Twitch y Kick, con soporte para eventos como mensajes y seguidores.",
-        "image": "https://imgs.search.brave.com/7TzELtZnvqgFkqjMMuFUKzf5N_euJbqB-8-y7nPtbbQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/Z2FtZWNoYW1waW9u/cy5jb20vbWVkaWEv/MmN3bmNlZ3Ava2lj/ay12cy10d2l0Y2gt/dGh1bWJuYWlsLnBu/Zw",
-        "url": "https://streamereasy.vercel.app/",
+        "title": "Noa Gestion",
+        "description": "Sistema de gestión para Noa. tipo ERP",
+        "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698382/noa_gestion_bbs1xg.png",
+        "url": null,
         "status": "active"
     },
     {
@@ -21,8 +21,21 @@
         ],
         "title": "Fighters Fans",
         "description": "Web para fighting games y a su comunidad.",
-        "image": "https://wallpapercave.com/wp/wp4163743.jpg",
+        "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761699042/fiaclab_imtbvt.png",
         "url": "https://fightersarg.vercel.app/",
+        "status": "active"
+    },
+    {
+        "id": 9,
+        "tools": [
+            "React",
+            "Go",
+            "TypeScript"
+        ],
+        "title": "Club Norte",
+        "description": "Versión personalizada del sistema Noa Gestión, adaptada a las necesidades del cliente.",
+        "image": "https://res.cloudinary.com/dzk19zxv8/image/upload/v1761698876/CLubNorte_mm2kaa.png",
+        "url": null,
         "status": "active"
     }
 ]
